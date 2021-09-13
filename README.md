@@ -8,9 +8,9 @@ python -m grpc_tools.protoc --proto_path=. ./unary.proto --python_out=. --grpc_p
 
 Start server:-
 
-python3 unary_server.py
+python3 server.py
 
 
 Start client:-
 
-python3 unary_client.py
+python3 client.py
